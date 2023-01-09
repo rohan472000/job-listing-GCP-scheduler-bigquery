@@ -1,0 +1,5 @@
+bs4
+requests
+google-cloud
+google-cloud-scheduler
+google-cloud-bigquery
