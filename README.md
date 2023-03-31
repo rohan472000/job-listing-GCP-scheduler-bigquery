@@ -25,9 +25,13 @@ The scraper.py script scrapes job listings from various websites and stores the 
 The scheduler.py script sets up a Scheduler job to run the scraper.py script at regular intervals. To run the script, you will need to provide the following arguments:
 
 --project: the ID of your GCP project
+
 --name: the name of your Scheduler job
+
 --dataset: the ID of your BigQuery dataset
+
 --table: the ID of your BigQuery table
+
 --interval: the interval at which to run the job, in cron format
 
 
