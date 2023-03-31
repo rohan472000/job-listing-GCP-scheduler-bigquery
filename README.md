@@ -40,8 +40,11 @@ The scheduler.py script sets up a Scheduler job to run the scraper.py script at 
 The server.py script sets up a Flask web server to serve the scraped job listings. To run the script, you will need to provide the following arguments:
 
 --project: the ID of your GCP project
+
 --dataset: the ID of your BigQuery dataset
+
 --table: the ID of your BigQuery table
+
 
 ## Contributing
 Contributions to this repository are welcome. If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
